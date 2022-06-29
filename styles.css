@@ -29,7 +29,7 @@ a {
 
 span {
     font-weight: 100;
-    animation-name: animation .5s infinite alternate;
+    animation: animation .5s infinite alternate;
 }
 /* Animacion Span */
 @keyframes animation {
