@@ -64,17 +64,6 @@ span {
         "main"
         "footer";
     grid-template-rows: 60px auto 30px;
-    animation: bgChanger 4s linear infinite alternate;
-    transition: background-color 2s linear;
-}
-/* Animation Background */
-@keyframes bgChanger {
-    0% {
-        background-color: #2C3333ff;
-    }
-    100% { 
-        background-color: #2C3333a0;
-    }
 }
 
 /* HEADER */
