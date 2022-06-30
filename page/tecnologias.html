@@ -1,109 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Portafolio V2 (Con GRID)</title>
-    <link rel="shortcut icon" href="../assets/fav3.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../assets/fav3.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Fork Awesome -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-   
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body class="container">
-        <header>
-            <!-- Menu -->
-            <nav class="nav centerLimitator">
-                <a href="../index.html"><h1 class="nav__brand">edware<span>|</span></h1></a>
-                <ul class="nav__ul">
-                    <li><a href="../index.html">Sobre Mí</a></li>
-                    <li><a href="./tecnologias.html">Tecnologías</a></li>
-                    <li><a href="./proyectos.html">Proyectos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-                <!-- Boton Responsive -->
-                <a href="#" class="nav__respbtn">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-            </nav>
-        </header>
-        <main>
-            <!-- Contenido Principal -->
-            <div class="block tech">
-                <table class="tech__table">
-                    <thead class="tech__table__head">
-                        <tr>
-                            <!-- Cabecera de tabla -->
-                            <th class="tech__table__head__element">Tecnología</th>
-                            <th class="tech__table__head__element element--sec">Progreso</th>
-                        </tr>
-                    </thead>
-                    <tbody class="tech__table__body">
-                            <!-- Table Data -->
-                        <tr>
-                            <td class="tech__table__body__name">
-                                <i class="fa fa-html5 tech__icon" aria-hidden="true"></i>
-                                <h3 class="tech__name">HTML5</h3>
-                            </td>
-                            <td class="tech__table__body--percent">
-                                <progress  class="prgbar" max="10" value="9"></progress>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tech__table__body__name">
-                                <i class="fa-brands fa-css3-alt tech__icon"></i>
-                                <h3 class="tech__name">CSS3</h3></td>
-                            <td class="tech__table__body--percent">
-                                <progress class="prgbar" max="10" value="8"></progress>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tech__table__body__name">
-                                <i class="fa fa-sass tech__icon" aria-hidden="true"></i>
-                                <h3 class="tech__name">SASS</h3></td>
-                            <td class="tech__table__body--percent">
-                                <progress class="prgbar" max="10" value="7"></progress>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tech__table__body__name">
-                                <i class="fa-brands fa-js tech__icon"></i>
-                                <h3 class="tech__name">Javascript</h3></td>
-                            <td class="mtech__table__body--percent">
-                                <progress class="prgbar" max="10" value="6"></progress>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tech__table__body__name">
-                                <i class="fa fa-php tech__icon" aria-hidden="true"></i>
-                                <h3 class="tech__name">PHP</h3></td>
-                            <td class="tech__table__body--percent">
-                                <progress class="prgbar" max="10" value="5"></progress>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tech__table__body__name">
-                                <i class="fa fa-mysql tech__icon" aria-hidden="true"></i>
-                                <h3 class="tech__name">MySQL</h3></td>
-                            <td class="tech__table__body--percent">
-                                <progress class="prgbar" max="10" value="4"></progress>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </main>
-        <!-- Pie de Pagina -->
-        <footer>
-            <h4>© 2022 by Edward</h4>
-        </footer>
-</body>
-
+  <body class="container">
+    <header>
+      <!-- Menu -->
+      <nav class="nav centerLimitator">
+        <a href="../index.html"
+          ><h1 class="nav__brand">edware<span>|</span></h1></a
+        >
+        <ul class="nav__ul">
+          <li><a href="../index.html">Sobre Mí</a></li>
+          <li><a href="./tecnologias.html">Tecnologías</a></li>
+          <li><a href="./proyectos.html">Proyectos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <!-- Boton Responsive -->
+        <a href="#" class="nav__respbtn">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <!-- Contenido Principal -->
+      <div class="block tech">
+        <table class="tech__table">
+          <thead class="tech__table__head">
+            <tr>
+              <!-- Cabecera de tabla -->
+              <th class="tech__table__head__element">Tecnología</th>
+              <th class="tech__table__head__element element--sec">Progreso</th>
+            </tr>
+          </thead>
+          <tbody class="tech__table__body">
+            <!-- Table Data -->
+            <tr>
+              <td class="tech__table__body__name">
+                <i class="fa fa-html5 tech__icon" aria-hidden="true"></i>
+                <h3 class="tech__name">HTML5</h3>
+              </td>
+              <td class="tech__table__body--percent">
+                <progress class="prgbar" max="10" value="9"></progress>
+              </td>
+            </tr>
+            <tr>
+              <td class="tech__table__body__name">
+                <i class="fa-brands fa-css3-alt tech__icon"></i>
+                <h3 class="tech__name">CSS3</h3>
+              </td>
+              <td class="tech__table__body--percent">
+                <progress class="prgbar" max="10" value="8"></progress>
+              </td>
+            </tr>
+            <tr>
+              <td class="tech__table__body__name">
+                <i class="fa fa-sass tech__icon" aria-hidden="true"></i>
+                <h3 class="tech__name">SASS</h3>
+              </td>
+              <td class="tech__table__body--percent">
+                <progress class="prgbar" max="10" value="7"></progress>
+              </td>
+            </tr>
+            <tr>
+              <td class="tech__table__body__name">
+                <i class="fa-brands fa-js tech__icon"></i>
+                <h3 class="tech__name">Javascript</h3>
+              </td>
+              <td class="mtech__table__body--percent">
+                <progress class="prgbar" max="10" value="6"></progress>
+              </td>
+            </tr>
+            <tr>
+              <td class="tech__table__body__name">
+                <i class="fa fa-php tech__icon" aria-hidden="true"></i>
+                <h3 class="tech__name">PHP</h3>
+              </td>
+              <td class="tech__table__body--percent">
+                <progress class="prgbar" max="10" value="5"></progress>
+              </td>
+            </tr>
+            <tr>
+              <td class="tech__table__body__name">
+                <i class="fa fa-mysql tech__icon" aria-hidden="true"></i>
+                <h3 class="tech__name">MySQL</h3>
+              </td>
+              <td class="tech__table__body--percent">
+                <progress class="prgbar" max="10" value="4"></progress>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <!-- Pie de Pagina -->
+    <footer>
+      <h4>© 2022 by Edward</h4>
+    </footer>
+    <!-- javascript -->
+    <script src="../script.js"></script>
+  </body>
 </html>

@@ -1,93 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Portafolio V2 (Con GRID)</title>
-    <link rel="shortcut icon" href="../assets/fav3.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../assets/fav3.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Fork Awesome -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
-        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+      crossorigin="anonymous"
+    />
+  </head>
 
-</head>
-
-<body class="container">
+  <body class="container">
     <header>
-        <!-- Menu -->
-        <nav class="nav centerLimitator">
-            <a href="../index.html">
-                <h1 class="nav__brand">edware<span>|</span></h1>
-            </a>
-            <ul class="nav__ul">
-                <li><a href="../index.html">Sobre Mí</a></li>
-                <li><a href="./tecnologias.html">Tecnologías</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-            <!-- Boton Responsive -->
-            <a href="#" class="nav__respbtn">
-                <i class="fa-solid fa-bars"></i>
-            </a>
-        </nav>
+      <!-- Menu -->
+      <nav class="nav centerLimitator">
+        <a href="../index.html">
+          <h1 class="nav__brand">edware<span>|</span></h1>
+        </a>
+        <ul class="nav__ul">
+          <li><a href="../index.html">Sobre Mí</a></li>
+          <li><a href="./tecnologias.html">Tecnologías</a></li>
+          <li><a href="./proyectos.html">Proyectos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <!-- Boton Responsive -->
+        <a href="#" class="nav__respbtn">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
     </header>
     <main>
-        <!-- Contenido Principal -->
-        <div class="block contacto">
-            <!-- Mapa y Redes Sociales -->
-            <div class="contacto__box">
-                <!-- Redes Sociales -->
-                <div class="social">
-                    <a href="https://facebook.com" class="socialIcon" target="_blank" rel="noopener noreferrer"><i
-                            class="fa-brands fa-facebook-f sico"></i></a>
-                    <a href="https://instagram.com" class="socialIcon" target="_blank" rel="noopener noreferrer"><i
-                            class="fa-brands fa-instagram sico"></i></a>
-                    <a href="https://linkedin.com" class="socialIcon" target="_blank" rel="noopener noreferrer"><i
-                            class="fa-brands fa-linkedin-in sico"></i></a>
-                    <a href="https://github.com" class="socialIcon" target="_blank" rel="noopener noreferrer"><i
-                            class="fa-brands fa-github sico"></i></a>
-                </div>
-                <!-- Mapa -->
-                <div class="map">
-                    <iframe class="map__iframe"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62430.8600269026!2d-75.23765853962635!3d-12.04842317406476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e964104fb82f1%3A0xf8e45b61c55982fa!2sHuancayo!5e0!3m2!1ses-419!2spe!4v1655322036232!5m2!1ses-419!2spe"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-            <!-- Formulario -->
-            <form class="contacto__box inbox" action="" method="" enctype="">
-                <h3 class="inbox__title">Contáctame:</h3>
-                <div class="inbox__data">
-                    <label class="inbox__label" for="name">Ingrese su nombre:</label>
-                    <input class="inbox__input" type="text" id="name" name="name" placeholder="Nombre..." />
-                </div>
-                <div class="inbox__data">
-                    <label class="inbox__label" for="email">Ingrese su email:</label>
-                    <input class="inbox__input" type="email" name="email" id="email"
-                        placeholder="Correo electrónico..." />
-                </div>
-                <div class="inbox__data">
-                    <label class="inbox__label" for="msj">Ingrese su mensaje:</label>
-                    <textarea class="inbox__input" name="msj" id="msj" cols="30" rows="8"
-                        placeholder="Mensaje..."></textarea>
-                </div>
-                <div class="inbox__buttons">
-                    <button class="cont__button" type="submit">Enviar</button>
-                    <button class="cont__button button--clean" type="reset">Limpiar</button>
-                </div>
-            </form>
+      <!-- Contenido Principal -->
+      <div class="block contacto">
+        <!-- Mapa y Redes Sociales -->
+        <div class="contacto__box">
+          <!-- Redes Sociales -->
+          <div class="social">
+            <a
+              href="https://facebook.com"
+              class="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-facebook-f sico"></i
+            ></a>
+            <a
+              href="https://instagram.com"
+              class="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-instagram sico"></i
+            ></a>
+            <a
+              href="https://linkedin.com"
+              class="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-linkedin-in sico"></i
+            ></a>
+            <a
+              href="https://github.com"
+              class="socialIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-github sico"></i
+            ></a>
+          </div>
+          <!-- Mapa -->
+          <div class="map">
+            <iframe
+              class="map__iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62430.8600269026!2d-75.23765853962635!3d-12.04842317406476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e964104fb82f1%3A0xf8e45b61c55982fa!2sHuancayo!5e0!3m2!1ses-419!2spe!4v1655322036232!5m2!1ses-419!2spe"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
+        <!-- Formulario -->
+        <form class="contacto__box inbox" action="" method="" enctype="">
+          <h3 class="inbox__title">Contáctame:</h3>
+          <div class="inbox__data">
+            <label class="inbox__label" for="name">Ingrese su nombre:</label>
+            <input
+              class="inbox__input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre..."
+            />
+          </div>
+          <div class="inbox__data">
+            <label class="inbox__label" for="email">Ingrese su email:</label>
+            <input
+              class="inbox__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Correo electrónico..."
+            />
+          </div>
+          <div class="inbox__data">
+            <label class="inbox__label" for="msj">Ingrese su mensaje:</label>
+            <textarea
+              class="inbox__input"
+              name="msj"
+              id="msj"
+              cols="30"
+              rows="8"
+              placeholder="Mensaje..."
+            ></textarea>
+          </div>
+          <div class="inbox__buttons">
+            <button class="cont__button" type="submit">Enviar</button>
+            <button class="cont__button button--clean" type="reset">
+              Limpiar
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
     <!-- Pie de Pagina -->
     <footer>
-        <h4>© 2022 by Edward</h4>
+      <h4>© 2022 by Edward</h4>
     </footer>
-</body>
 
+    <!-- javascript -->
+    <script src="../script.js"></script>
+  </body>
 </html>
