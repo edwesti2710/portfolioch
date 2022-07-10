@@ -1,0 +1,22 @@
+{
+  "name": "clase---entregable",
+  "version": "1.0.0",
+  "description": "Entregable",
+  "main": "script.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwesti2710/portfolioch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwesti2710/portfolioch/issues"
+  },
+  "homepage": "https://github.com/edwesti2710/portfolioch#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,202 @@
+/* BREAKPOINTS */
+@media (max-width: 980px) {
+
+    /* About Me */
+    html {
+        font-size: 8px;
+    }
+
+    .aboutMe {
+        max-width: 600px;
+        max-height: 267px;
+
+        &__img {
+            height: 267px;
+        }
+
+        &__data {
+
+            & h2 {
+                margin: 10px;
+            }
+            
+            & p {
+                margin: 10px;
+            }
+        }
+    }
+
+        /* Tecnologias */
+    .tech {
+        max-width: 600px;
+        max-height: 267px;
+
+        &__table {
+
+            &__body {
+
+                & tr {
+                    height: 26px;
+                }
+
+                &__name {
+                    height: 28px;
+                }
+            }
+        }
+
+        &__icon {
+            margin-right: 5px;
+        }
+    }
+
+    .prgbar {
+        width: 90%;
+        height: 30px;
+        position: relative;
+    }
+
+    /* Proyectos */
+    .proy {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 16px;
+    }
+
+    /* Contacto */
+    .contacto {
+        width: 600px;
+        height: 267px;
+    }
+
+    .social {
+        margin-top: 6px;
+    }
+
+    .socialIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Correo Electrónico */
+
+    .inbox {
+
+        &__data {
+            padding: 0 30px;
+
+        }
+
+        &__input {
+            padding: 3px 5px;
+        }
+
+        &__buttons {
+            display: flex;
+            justify-content: center;
+            margin: 5px 0 0 0;
+        }
+    }
+
+    .cont__button {
+        width: 100px;
+        margin: 0 10px;
+        padding: 1px;
+    }
+
+    footer {
+        & h4 {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    /* Barra de Navegación */
+    .nav {
+        &__ul {
+            position: absolute;
+            display: none;
+            flex-direction: column;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100vh;
+            justify-content: center;
+            gap: 50px;
+            background-color: #2C3333e0;
+        }
+
+        /* Aparece el botón responsivo */
+        &__respbtn {
+            display: flex;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+
+    html {
+        font-size: 6.8px;
+    }
+    /* Contenedor de Contenido Principal */
+    .block {
+        flex-direction: column;
+    }
+
+    /* About Me */
+    .aboutMe {
+        max-width: 250px;
+        max-height: 500px;
+
+        &__img {
+            width: 100%;
+            height: 50%;
+        }
+
+        &__data {
+            width: 100%;
+            height: 50%;
+
+            & h2 {
+                margin: 5px;
+            }
+
+            & p {
+                margin: 5px;
+            }
+        }
+    }
+
+    /* Tecnologias */
+    .tech {
+        width: 90vw;
+        height: 500px;
+    }
+
+    /* Proyectos */
+    .proy {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        padding: 16px;
+    }
+
+    /* Contacto */
+    .contacto {
+        max-width: 250px;
+        max-height: 500px;
+        height: 500px;
+        border-radius: 0;
+
+        &__box {
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+    footer {
+        & h4 {
+            font-size: 2rem;
+        }
+    }
+}

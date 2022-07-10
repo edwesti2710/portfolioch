@@ -1,0 +1,59 @@
+/* Tech */
+.tech {
+    max-width: 900px;
+    width: 900px;
+    height: 400px;
+
+    // Inicio de Tabla
+    &__table {
+        width: 92%;
+        // Cabecera de Tabla
+        &__head {
+            & tr {
+                background-color: #2C3333df;
+            }
+            &__element {
+                width: 30%;
+                color: white;
+                font-size: 1.9rem;
+            }
+        }
+        // Cuerpo de Tabla
+        &__body {
+            & tr {
+                height: 50px;
+                text-align: center;
+            }
+
+            &__name {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 48px;
+                font-size: 3rem;
+                color: white;
+            }
+        }
+    }
+
+    /* Tecnologias - Izquierda */
+    &__icon {
+        margin-right: 10px;
+    }
+
+    &__name {
+        font-size: 1.4rem;
+    }
+}
+
+.element--sec {
+    width: 70%;
+}
+
+/* Tecnologias - ProgressBar */
+.prgbar {
+    width: 90%;
+    height: 40px;
+    position: relative;
+    z-index: -5;
+}

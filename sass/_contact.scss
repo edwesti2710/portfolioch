@@ -1,0 +1,127 @@
+/* Main Contacto */
+.contacto {
+    width: 900px;
+    height: 400px;
+
+    /* Contenedor de Contacto */
+    &__box {
+        background-color: #395B6420;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+/* Redes Sociales */
+.social {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    text-decoration: none;
+    background-color: #2666CF85;
+    transition: background-color .2s;
+
+    &:hover {
+        background-color: #2666CFE5;
+    }
+}
+
+
+.sico {
+    font-size: 4rem;
+    color: white;
+}
+
+/* Mapa */
+.map {
+    height: 80%;
+    width: 100%;
+
+    &__iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Correo Electronico */
+.inbox {
+    justify-content: center;
+    border-left: 1px solid white;
+
+    &__title {
+        font-size: 2.4rem;
+        color: white;
+    }
+
+    &__data {
+        padding: 0 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__label {
+        color: white;
+        font-size: 1.4rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    &__input {
+        width: 100%;
+        outline: none;
+        font-family: 'Lora', serif;
+        resize: none;
+        padding: 5px 8px;
+        border-radius: 0 10px 0 10px;
+        border: none;
+        font-size: 1.4rem;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+/* Contenedor Botones */
+.cont__button {
+    width: 100px;
+    margin: 10px 20px 0 20px;
+    padding: 2px;
+    background-color: #2666CF1f;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    transition: background-color .2s;
+    border: 1px solid white;
+
+    &:hover {
+        background-color: #2666CF78;
+
+    }
+}
+
+.button--clean {
+    background-color: #395B64;
+}
