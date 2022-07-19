@@ -24,19 +24,32 @@
     justify-content: space-around;
 }
 
-.socialIcon {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 20%;
-    text-decoration: none;
-    background-color: #2666CF85;
-    transition: background-color .2s;
 
-    &:hover {
-        background-color: #2666CFE5;
+// MAP & EACH
+$redesSociales: (
+    facebook: #2279e4,
+    instagram: #c92d8f,
+    linkedin: blue,
+    github: #1d1d1d,
+);
+
+@each $nombre, $color in $redesSociales {
+    .socialIcon--#{$nombre} {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 20%;
+        text-decoration: none;
+        background-color: $color;
+        transition: background-color .2s;
+        opacity: .9;
+    
+        &:hover {
+            // background-color: #2666CFE5;
+            opacity: 1;
+        }
     }
 }
 

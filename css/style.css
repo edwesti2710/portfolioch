@@ -309,7 +309,7 @@ header {
   justify-content: space-around;
 }
 
-.socialIcon {
+.socialIcon--facebook {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -317,11 +317,60 @@ header {
   height: 60px;
   border-radius: 20%;
   text-decoration: none;
-  background-color: rgba(38, 102, 207, 0.5215686275);
+  background-color: #2279e4;
   transition: background-color 0.2s;
+  opacity: 0.9;
 }
-.socialIcon:hover {
-  background-color: rgba(38, 102, 207, 0.8980392157);
+.socialIcon--facebook:hover {
+  opacity: 1;
+}
+
+.socialIcon--instagram {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+  text-decoration: none;
+  background-color: #c92d8f;
+  transition: background-color 0.2s;
+  opacity: 0.9;
+}
+.socialIcon--instagram:hover {
+  opacity: 1;
+}
+
+.socialIcon--linkedin {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+  text-decoration: none;
+  background-color: blue;
+  transition: background-color 0.2s;
+  opacity: 0.9;
+}
+.socialIcon--linkedin:hover {
+  opacity: 1;
+}
+
+.socialIcon--github {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+  text-decoration: none;
+  background-color: #1d1d1d;
+  transition: background-color 0.2s;
+  opacity: 0.9;
+}
+.socialIcon--github:hover {
+  opacity: 1;
 }
 
 .sico {
