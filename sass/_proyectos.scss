@@ -8,16 +8,21 @@
     padding: 20px;
     border-radius: 0;
 
+// MIXIN
+@mixin card_props{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 20px #000;
+}
+
     /* Contenedor de Proyectos */
     &__card {
-        width: 280px;
-        height: 280px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #fff;
-        box-shadow: 0px 0px 20px #000;
+        @include card_props;
     }
 
     &__title {
