@@ -43,7 +43,7 @@
     }
 
     &__button {
-        background-color: #2666CF1f;
+        // background-color: #2666CF1f;
         color: white;
         width: 110px;
         height: 30px;
@@ -54,10 +54,21 @@
         border-radius: 20px;
         font-size: 1.4rem;
         border: 1px solid white;
-        transition: background-color .2s;
+        opacity: .8;
 
         &:hover {
-            background-color: #2666CF78;
+            opacity: 1;
+        }
+
+        // EXTEND
+        &--visitar {
+            @extend .proy__button;
+            background-color: $color_azulbase;
+        }
+
+        &--ver {
+            @extend .proy__button;
+            background-color: $color_base;
         }
     }
 }
