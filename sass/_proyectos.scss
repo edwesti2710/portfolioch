@@ -9,9 +9,10 @@
     border-radius: 0;
 
 // MIXIN
-@mixin card_props{
-    width: 280px;
-    height: 280px;
+
+@mixin card_props($size) {
+    width: $size;
+    height: $size;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +23,7 @@
 
     /* Contenedor de Proyectos */
     &__card {
-        @include card_props;
+        @include card_props(280px);
     }
 
     &__title {
