@@ -3,7 +3,18 @@ Entrega CH
 edware - Mi Portfolio
 
 
---ULTIMOS CAMBIOS--
+edware - Mi Portfolio
+
+23/07/2022 (Latest)
+
+*Personalicé los meta keywords para cada página en específico.
+
+*Corregí los meta description para que tengan entre 70 y 350 carácteres.
+
+*En SASS, modifiqué el mixin para que admita argumentos.
+
+
+15/07/2020
 
 *Agregué estas keywords: HTML, CSS, JS, SASS, PHP, GIT, BOOTSTRAP, WEB, DEVELOPER, FRONT, END
 
