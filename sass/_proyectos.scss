@@ -9,7 +9,6 @@
     border-radius: 0;
 
 // MIXIN
-
 @mixin card_props($size) {
     width: $size;
     height: $size;
@@ -49,7 +48,6 @@
     }
 
     &__button {
-        // background-color: #2666CF1f;
         color: white;
         width: 110px;
         height: 30px;
